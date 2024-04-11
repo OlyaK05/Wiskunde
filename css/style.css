@@ -100,10 +100,9 @@ button {
     transform: translateX(-50%);
 }
 
-
-
-
-
+.menu__close {
+    display: none;
+}
 
 
 
@@ -119,19 +118,26 @@ button {
 
 @media (max-width: 768px) {
     .menu {
+        transform: translateY(-100%);
         /* display: none; */
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
-        width: 360px;
+        width: 100%;
         margin: 0 auto;
         background-color: white;
         display: block;
         text-align: center;
         padding-top: 60px;
     }
-     
+
+    .menu.menu__list--open {
+        transform: translateY(0%);
+    }
+    .menu__close {
+        display: flex;
+    }
     .menu__close-btn {
         position: absolute;
         top: 20px;
@@ -154,6 +160,9 @@ button {
 }
 
 @media (max-width: 480px) {
+    /* .menu {
+        width: 360px;
+    } */
     .menu__btn {
         width: 18px;
         height: 11px;
