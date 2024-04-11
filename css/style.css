@@ -104,6 +104,24 @@ button {
     display: none;
 }
 
+/*Основная часть страницы*/
+.tittle-index {
+    font-size: 56px;
+}
+
+.top__text--index {
+    font-size: 20px
+}
+
+.top_button-sign-up {
+    font-size: 24px;
+    font-family: "ALS Sector Regular Regular";
+    color: white;
+    background-color: rgba(28, 78, 176, 1);
+    padding: .7em 1.5em;
+    border-radius: 30px;
+}
+
 
 
 @media (max-width: 1000px) {
@@ -135,17 +153,21 @@ button {
     .menu.menu__list--open {
         transform: translateY(0%);
     }
+
     .menu__close {
         display: flex;
     }
+
     .menu__close-btn {
         position: absolute;
         top: 20px;
         right: 20px;
     }
+
     .menu__list {
         margin-bottom: 30px;
     }
+
     .menu__btn {
         display: flex;
         flex-direction: column;
@@ -160,11 +182,12 @@ button {
 }
 
 @media (max-width: 480px) {
+
     /* .menu {
         width: 360px;
     } */
     .menu__btn {
-        width: 18px;
+        width: 14px;
         height: 11px;
     }
 
@@ -172,9 +195,14 @@ button {
         display: none;
     }
 
+    .menu__link {
+        font-size: 12px;
+    }
+
     .logo_mobile {
         display: flex;
     }
+
     .nav {
         height: 40px;
     }
