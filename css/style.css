@@ -143,35 +143,88 @@ button {
 }
 
 .index__course-description {
-    margin-top: 13.75vw;
+    margin-top: 10.75vw;
 }
 
 .description__inner-index-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 34px;
 }
+
+.description_summer-curse {
+    display: flex;
+}
+
+.description__year-curse {
+    display: flex;
+}
+
 .description_summer-curse,
 .description__year-curse {
     background-color: rgba(238, 238, 238, 1);
     border-radius: 20px;
+    padding-left: 1.6667vw;
 }
 
 .title_description-index {
     font-size: 3.33333vw;
+    margin-bottom: 1.25vw;
 }
+
 .description_title-index {
     font-size: 1.94444vw;
     font-weight: 700;
+    margin-top: 2.403vw;
+    margin-bottom: 1.338vw;
 }
 
 .description-list {
     font-size: 1.388889vw;
+    margin-bottom: 0.694vw;
 }
 
 .menu-description {
     list-style-type: "•";
-  }
+}
+
+.description-list {
+    padding-left: 1.041667vw;
+}
+
+
+.description_button-sign-up {
+    font-size: 1.6666667vw;
+    font-family: "ALS Sector Regular Regular";
+    color: white;
+    background-color: rgba(28, 78, 176, 1);
+    padding: .4em 1em;
+    border-radius: 20px;
+    margin-top: 1.3888889vw;
+    margin-bottom: 1.3888889vw;
+}
+
+.description_button-sign-up:hover {
+    background-color: rgba(0, 108, 220, 1);
+}
+
+.summer_curse-image {
+    margin-top: 8vw;
+}
+
+.year_curse-image {
+    margin-top: 13vw;
+}
+
+.index__course-description {
+    margin-bottom: 4.375vw;
+}
+
+/*Особенности школы*/
+.features_items-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
 @media (max-width: 1000px) {
     .menu {
         gap: 80px;
@@ -256,12 +309,45 @@ button {
         margin-top: 30px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 130px;
-        ;
         gap: 10px;
     }
 
     .top_button-sign-up {
         font-size: 18px;
+    }
+
+    .description__inner-index-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .description_title-index {
+        font-size: 3.125vw;
+    }
+    .description-list {
+        font-size: 2.3083vw;
+    }
+    .description_summer-curse, .description__year-curse {
+        padding-left: 3.08333vw;
+    }
+    .description_button-sign-up {
+        font-size: 2.70833vw;
+    }
+    .summer_curse-image {
+        margin-top: 5vw;
+    }
+    .year_curse-image {
+        margin-top: 15vw;
+    }
+    .description_title-index {
+        margin-top: 3.5vw;
+        margin-bottom: 2.338vw;
+    }
+    .description-list {
+        margin-bottom: 1.794vw;
+    }
+
+    .title_description-index {
+        font-size: 4.5vw;
     }
 }
 
@@ -311,4 +397,39 @@ button {
     .top_button-sign-up {
         font-size: 2.70833vw;
     }
+
+    /* .description__inner-index-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    } */
+
+    .beach {
+        width: 158px;
+    }
+    .year {
+        width: 184px;
+    }
+
+    /* .description_title-index {
+        font-size: 3.125vw;
+    }
+    .description-list {
+        font-size: 2.3083vw;
+    }
+    .description_summer-curse, .description__year-curse {
+        padding-left: 3.08333vw;
+    }
+    .description_button-sign-up {
+        font-size: 2.70833vw;
+    }
+    .summer_curse-image {
+        margin-top: 5vw;
+    }
+    .description_title-index {
+        margin-top: 3.5vw;
+        margin-bottom: 2.338vw;
+    }
+    .description-list {
+        margin-bottom: 1.794vw;
+    } */
 }
