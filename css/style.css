@@ -322,6 +322,37 @@ button {
     font-size: 1.3889vw;
 }
 
+.addition {
+    margin-top: 4.1vw;
+    margin-right: 27.36vw;
+    margin-bottom: 4.1vw;
+}
+
+.addition-text {
+    font-size: 1.3889vw;
+}
+
+.index__footer {
+    background-color: rgba(48, 48, 48, 1);
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-line {
+    border-bottom: 1px solid white;
+}
+.footer-title {
+    color: white;
+    font-size: 1.667vw;
+}
+.footer-text {
+    color: white;
+    font-size: 1.3889vw;
+}
+
 @media (max-width: 1000px) {
     .menu {
         gap: 80px;
@@ -543,5 +574,13 @@ button {
         font-size: 2.188889vw;
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .question-text {
+        font-size: 2.144vw;
+    }
+
+    .question-answer {
+        font-size: 1.7889vw;
     }
 }
