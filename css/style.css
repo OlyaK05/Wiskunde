@@ -18,8 +18,18 @@ body {
     color: black;
 }
 
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 img {
     max-width: 100%;
+}
+
+main {
+    flex: 1 1 auto;
 }
 
 .whatsapp-button {
@@ -145,6 +155,7 @@ button {
 }
 
 /*Основная часть страницы*/
+
 .tittle-index {
     font-size: 3.88889vw;
 }
@@ -337,20 +348,36 @@ button {
 }
 
 .footer-inner {
+    padding-top: 4.16vw;
+    padding-bottom: 4.16vw;
+}
+
+.footer-inner-container {
     display: flex;
     justify-content: space-between;
 }
 
 .footer-line {
     border-bottom: 1px solid white;
+    margin-top: 1.2vw;
+    margin-bottom: 1.2vw;
 }
+
 .footer-title {
     color: white;
     font-size: 1.667vw;
 }
+
 .footer-text {
     color: white;
     font-size: 1.3889vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.copyright {
+    color: white;
+    font-size: 1.111vw;
 }
 
 @media (max-width: 1000px) {
@@ -495,8 +522,13 @@ button {
         font-size: 4.5vw;
     }
 
-    .whatsapp-button {
+    /* .whatsapp-button {
         display: none;
+    } */
+
+    .whatsapp-button {
+        width: 40px;
+        height: 40px;
     }
 }
 
@@ -581,6 +613,16 @@ button {
     }
 
     .question-answer {
-        font-size: 1.7889vw;
+        font-size: 1.9889vw;
     }
+
+    .footer-title {
+        font-size: 2.167vw;
+    }
+
+    .whatsapp-button {
+        width: 30px;
+        height: 30px;
+    }
+
 }
