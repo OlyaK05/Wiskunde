@@ -11,6 +11,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: aliceblue;
 }
 
 body {
@@ -380,6 +381,131 @@ button {
     font-size: 1.111vw;
 }
 
+/*Page with information*/
+
+.information_main {
+    margin-top: 5.13vw;
+}
+
+.top_information-inner {
+    padding-top: 2.91667vw;
+    padding-left: 3.2638vw;
+    padding-bottom: 6.18vw;
+    padding-right: 3.2638vw;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+.top_inner-grid {
+    display: grid;
+    grid-template-columns: 62% 32%;
+    gap: 3.54166vw;
+}
+
+.title-information {
+    font-size: 3.3333vw;
+}
+
+.top_information-text {
+    font-size: 1.9424vw;
+}
+
+.top_information-text-container {
+    padding-top: 2.1527vw;
+}
+
+.description_achive-top {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.38vw;
+}
+
+.stars-information {
+    width: 22.84vw;
+}
+
+.description_title-container {
+    align-items: center;
+    padding-top: 8.85833vw;
+    padding-left: 3.5vw;
+}
+
+.description-title {
+    font-size: 3.33333vw;
+}
+
+.description_achive-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.916vw;
+}
+
+.description_achive-part {
+    padding-top: 3.05vw;
+    padding-left: 3.541vw;
+    padding-right: 3.541vw;
+    padding-bottom: 2.9vw;
+    background-color: rgba(248, 249, 250, 1);
+}
+
+.description_achive-part-text {
+    font-size: 1.944vw;
+}
+
+.extracurricular_life-information {
+    margin-top: 12.638vw;
+}
+
+.extracurricular_life-container {
+    padding-left: 4.9288vw;
+    display: flex;
+    padding-top: 3.95vw;
+}
+
+.extracurricular_life-title {
+    font-size: 3.333vw;
+    padding-left: 4.9288vw
+}
+
+.extracurricular_life-container-inner {
+    width: 78.68055vw;
+}
+
+.extracurricular_life-container-text {
+    font-size: 1.9444vw;
+}
+
+.extracurricular_life-container-image {
+    padding-top: 9.122vw;
+    padding-left: 2.79vw;
+}
+
+.extracurricular_life-image {
+    width: 8.7986vw;
+}
+
+.extracurricular_life-graphic {
+    position: relative;
+    height: 33.26vw;
+}
+.extracurricular_life-graphic-top {
+    left: 1.388vw;
+    position: absolute;
+}
+.extracurricular_life-graphic-bottom {
+    top: 2.4305vw;
+    left: 4.961vw;
+    position: absolute;
+}
+
+.extracurricular_life-graphic-icon {
+      width: 5.97vw;
+}
+
+.extracurricular_life-graphic-image {
+    width: 88.8vw;
+}
+/*adaptive*/
 @media (max-width: 1000px) {
     .menu {
         gap: 80px;
@@ -522,10 +648,6 @@ button {
         font-size: 4.5vw;
     }
 
-    /* .whatsapp-button {
-        display: none;
-    } */
-
     .whatsapp-button {
         width: 40px;
         height: 40px;
@@ -535,7 +657,7 @@ button {
 @media (max-width: 480px) {
     .menu__btn {
         width: 14px;
-        height: 11px;
+        height: 10px;
     }
 
     .logo {
