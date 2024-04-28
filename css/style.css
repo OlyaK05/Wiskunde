@@ -20,16 +20,12 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
+    min-height: 100vh;
 }
 
 img {
     max-width: 100%;
 }
-
-/* main {
-    flex: 1 0 auto;
-} */
 
 footer {
     margin-top: auto;
@@ -511,21 +507,28 @@ button {
 
 /* contact part*/
 .contact_main {
-    margin-top: ;
-}
-
-.contact_inner {
-    display: flex;
-
+    margin-top: 2.2vw;
+    margin-bottom: 2.2vw;
 }
 
 .contact-right_part {
-    max-width: 669px;
+    padding-top: 9.7vw;
+}
+.contact-center-part {
+    padding-top: 19vw;
+}
+.contact_inner {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-right_part {
+    max-width: 46vw;
 }
 
 .contact_message-container {
     display: flex;
-    gap: 20px;
+    gap: 4vw;
 }
 
 .contact-right_part-text {
@@ -540,12 +543,17 @@ button {
 }
 
 .contact_human-img {
-    width: 37.7vw;
+    width: 543px;
 }
 
 .contact_arrow-img {
     width: 7.84vw;
 }
+
+.contact_message-container {
+    margin-top: 10vw;
+}
+
 /*adaptive*/
 @media (max-width: 1000px) {
     .menu {
@@ -581,9 +589,9 @@ button {
     .features_text {
         font-size: 1.388889vw;
     }
-
-
-
+    .contact_human-img {
+        width: 37.7vw;
+    }
 }
 
 @media (max-width: 768px) {
@@ -708,6 +716,39 @@ button {
         height: 40px;
     }
 
+    .contact-center-part {
+        display: none;
+    }
+
+    .contact_inner {
+        display: block;
+    }
+
+    .contact-left_part {
+        display: flex;
+        justify-content: center;
+    }
+    .contact-right_part {
+        max-width: 100%;
+    }
+
+    .contact-right_part-text {
+        text-align: center;
+    }
+
+    .contact_message-container {
+        justify-content: center;
+    }
+
+    .contact_message-container {
+        margin-top: 5vw;
+    }
+
+    .contact_tg-img,
+    .contact_vk-img,
+    .contact_whatsapp-img {
+        width: 9.361vw;
+    }
 }
 
 @media (max-width: 480px) {
