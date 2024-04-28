@@ -76,7 +76,6 @@ main {
 }
 
 .container {
-    /* max-width: 1220px; */
     padding: 0 60px;
     margin: 0 auto;
 }
@@ -506,6 +505,24 @@ button {
     width: 88.8vw;
 }
 
+/* contact part*/
+
+.contact_inner {
+    display: flex;
+    
+}
+.contact-right_part {
+    max-width: 669px;
+}
+.contact_message-container {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-right_part-text {
+    font-weight: 700;
+    font-size: 45px;
+}
 /*adaptive*/
 @media (max-width: 1000px) {
     .menu {
@@ -540,6 +557,9 @@ button {
 
     .features_text {
         font-size: 1.388889vw;
+    }
+    .contact-right_part-text {
+        font-size: 31px;
     }
 }
 
@@ -663,6 +683,9 @@ button {
     .whatsapp-button {
         width: 40px;
         height: 40px;
+    }
+    .contact-right_part-text {
+        font-size: 23px;
     }
 }
 
