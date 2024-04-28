@@ -18,17 +18,21 @@ body {
 }
 
 .wrapper {
-    min-height: 100%;
     display: flex;
     flex-direction: column;
+    min-height: 100vh; 
 }
 
 img {
     max-width: 100%;
 }
 
-main {
-    flex: 1 1 auto;
+/* main {
+    flex: 1 0 auto;
+} */
+
+footer {
+    margin-top: auto;
 }
 
 .whatsapp-button {
@@ -506,14 +510,19 @@ button {
 }
 
 /* contact part*/
+.contact_main {
+    margin-top: ;
+}
 
 .contact_inner {
     display: flex;
-    
+
 }
+
 .contact-right_part {
     max-width: 669px;
 }
+
 .contact_message-container {
     display: flex;
     gap: 20px;
@@ -521,7 +530,21 @@ button {
 
 .contact-right_part-text {
     font-weight: 700;
-    font-size: 45px;
+    font-size: 2.805vw;
+}
+
+.contact_tg-img,
+.contact_vk-img,
+.contact_whatsapp-img {
+    width: 7.361vw;
+}
+
+.contact_human-img {
+    width: 37.7vw;
+}
+
+.contact_arrow-img {
+    width: 7.84vw;
 }
 /*adaptive*/
 @media (max-width: 1000px) {
@@ -558,9 +581,9 @@ button {
     .features_text {
         font-size: 1.388889vw;
     }
-    .contact-right_part-text {
-        font-size: 31px;
-    }
+
+
+
 }
 
 @media (max-width: 768px) {
@@ -568,7 +591,7 @@ button {
         padding: 0 10px;
         margin: 0 auto;
     }
-    
+
     .menu {
         transform: translateY(-100%);
         position: absolute;
@@ -684,9 +707,7 @@ button {
         width: 40px;
         height: 40px;
     }
-    .contact-right_part-text {
-        font-size: 23px;
-    }
+
 }
 
 @media (max-width: 480px) {
@@ -818,15 +839,19 @@ button {
     .extracurricular_life-container-text {
         font-size: 2.9vw;
     }
+
     .extracurricular_life-container-image {
         padding-top: 20vw;
     }
+
     .extracurricular_life-information-inner {
         margin-bottom: 4.1vw;
     }
+
     .extracurricular_life-container-inner {
         max-width: 323px;
     }
+
     .extracurricular_life-image {
         width: 11.5vw;
     }
