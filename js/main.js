@@ -11,3 +11,16 @@ menuBtn.addEventListener('click', () => {
 menuClose.addEventListener('click', () => {
     menuList.classList.remove('menu__list--open')
 });
+
+let coll = document.getElementsByClassName('collapsible');
+for (let i = 0; i < coll.length; i++) {
+    coll[i].addEventListener('click', function () {
+        this.classList.toggle('active');
+        let content = this.nextElementSibling;
+        if (content.style.maxHeight) {
+            content.style.maxHeight = null;
+        } else {
+            content.style.maxHeight = content.scrollHeight + 'px';
+        }
+    })
+}
